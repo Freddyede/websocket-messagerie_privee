@@ -1,0 +1,27 @@
+.roomContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    & div {
+        cursor: pointer;
+        border: 1px solid #000000;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 1rem;
+        background-color: #C9C9C9;
+        color: #000000;
+        &:hover {
+            border: 1px solid #C9C9C9;
+            background-color: #000000;
+            color: #C9C9C9;
+        }
+        &.activeRoom {
+            background-color: #000000;
+            color: #C9C9C9;
+        }
+    }
+}

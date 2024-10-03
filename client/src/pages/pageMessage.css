@@ -1,0 +1,23 @@
+.pageMessageContainer, .display-message {
+    display: flex;
+    flex-direction: column;
+}
+.pageMessageContainer {
+    width: 100vw;
+    height: 100vh;
+}
+
+.display-message {
+    width: 80%;
+    height: 40%;
+    background-color: #C9C9C9;
+    color: #000000;
+}
+.display-form {
+    width: 80%;
+    height: 60%;
+    & > form {
+        display: flex;
+        flex-direction: column;
+    }
+}
